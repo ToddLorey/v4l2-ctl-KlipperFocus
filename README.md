@@ -29,8 +29,8 @@ echo "focus set to $1"
       NOTES:  
       - You may need to change the /dev/video9 to whatever your camera is identified as.  Use the same as what you used in your crowsnest.cfg file.
       - Your focus command might be different too.  Mine was "focus_absolute=_some number 1-1024_".  Check out your crowsnest.log file at ~/printer_data/logs/crowsnest.log.
-      - Leave the "$1" alone, we need that to pass the parameter into the script)
-      - Make sure you still have the #/bin/sh at the top of the file
+      - Leave the "$1" alone, we need that to pass the parameter into the script.
+      - Make sure you still have the #/bin/sh at the top of the file.
 
 3. Make any changes necessary as described above, and save the file:
     *  Hit ```CTRL+X``` to exit and then ```Yes``` to save.
