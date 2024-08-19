@@ -32,8 +32,8 @@ echo "focus set to $1"
       - Leave the "$1" alone, we need that to pass the parameter into the script)
       - Make sure you still have the #/bin/sh at the top of the file
 
-3. Make any changes necessary as described above.  And save the file:
-      Hit ```CTRL+X``` to exit and then ```Yes``` to save.
+3. Make any changes necessary as described above, and save the file:
+    *  Hit ```CTRL+X``` to exit and then ```Yes``` to save.
 
 4. Make the script file executable:
 ```
