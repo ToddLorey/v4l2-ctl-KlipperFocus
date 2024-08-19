@@ -14,7 +14,7 @@ Essentially, this is just a "fancy" way of getting Klipper to manually send a co
   *  or, it might already be installed.  Mine was from somewhere.
   
 # Installation steps:
-1. Create a file that contains a simple script to run when the macro is called.  I called mine focus.sh, and I put mine in ~/scripts.  From the command line, enter:
+1. Create a file that contains a simple script to run when the macro is called.  I called mine ```focus.sh```, and I put mine in ```~/scripts```.  From the command line, enter:
 ```
 nano ~/scripts/focus.sh
 ```
