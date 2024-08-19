@@ -33,7 +33,7 @@ echo "focus set to $1"
       - Make sure you still have the #/bin/sh at the top of the file
 
 3. Make any changes necessary as described above.  And save the file:
-      Hit CTRL+X to exit and then Yes to save.
+      Hit ```CTRL+X``` to exit and then ```Yes``` to save.
 
 4. Make the script file executable:
 ```
