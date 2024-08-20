@@ -42,7 +42,7 @@ chmod +x ~/scripts/focus.sh
 5. Add these lines to your printer.cfg file in Klipper.  Or, if you know your way around, you can put them probalby anywhere that has an [include yourfavoritemacros.cfg] in your printer.cfg file.
 ```
 [gcode_shell_command focus]
-command: sh ~/scripts/focus.sh  # The shell command to call the script.  
+command: sh /home/pi/scripts/focus.sh  # The shell command to call the script.  NOTE YOU MIGHT HAVE TO CHANGE pi to BIQU or whatever your username is
 timeout: 30.
 verbose: False
 
