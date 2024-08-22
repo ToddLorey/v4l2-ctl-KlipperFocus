@@ -1,4 +1,4 @@
-{% hint style="danger" %} We DO NOT 100% guarantee compatibility with ALL printers. It is your responsibility to read this entire guide prior to use and to research whether this is right for you. Please contact us on DISCORD if you have questions. {% endhint %}
+{% hint style=danger %} We DO NOT 100% guarantee compatibility with ALL printers. It is your responsibility to read this entire guide prior to use and to research whether this is right for you. Please contact us on DISCORD if you have questions. {% endhint %}
 
 # v4l2-ctl-KlipperFocus
 
