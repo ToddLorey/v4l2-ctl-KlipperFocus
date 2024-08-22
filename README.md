@@ -53,14 +53,14 @@ gcode:
     RUN_SHELL_COMMAND CMD=focus PARAMS={focus_val}                # Run the gcode shell command 
 
 [delayed_gcode INITIALIZE_FOCUS]
-initial_duration: 10  # Run automatically after initial_duration seconds
+initial_duration: 5  # Run automatically after initial_duration seconds
 gcode:
     SET_FOCUS FOCUS=465 # Set value for focus to suit your fancy
 
 ```
 6. Restart Klipper firmware.  May as well reboot your host machine as well, for good measure.
 # USAGE:
-This scheme will automatically set the manual focus value (465 in my case), 10 seconds after Klipper starts up.
+This scheme will automatically set the manual focus value (465 in my case), 5 seconds after Klipper starts up.
 
 You can manually set a focus value by sending this from the console (which might be useful for finding what you want to use for your default):
 ```
