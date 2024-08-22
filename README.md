@@ -1,3 +1,5 @@
+{% hint style="danger" %} We DO NOT 100% guarantee compatibility with ALL printers. It is your responsibility to read this entire guide prior to use and to research whether this is right for you. Please contact us on DISCORD if you have questions. {% endhint %}
+
 # v4l2-ctl-KlipperFocus
 
 I had tried to get my LMX179 USB webcam to set a manual focus level using the crowsnest.cfg file but it never seemed to work.  Manually sending a value in the command shell _did_ work, so I set about making a way that would automagically apply a focus value after Klipper starts up.
